@@ -1,0 +1,40 @@
+.tools {
+    filter: drop-shadow(1px 1px 4px rgba(128, 128, 128, 0.548));
+}
+
+.tools:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px)  {
+    .h5 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .h5 {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 430px)  {
+    .h5 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-img-top {
+        width: 40% !important;
+    }
+}

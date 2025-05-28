@@ -1,0 +1,77 @@
+.modal-dialog {
+    max-width: 90% !important;
+}
+  
+.modal-content {
+    width: 100% !important;
+    max-height: 30rem !important;
+    padding: 8px 4px 1.5rem 18px;
+}
+
+.h4 {
+    font-size: 2rem; 
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+ol li {
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+
+.btn-close {
+    font-size: 1.7rem;
+    margin-right: 0.4rem !important;
+}
+
+@media screen and (max-width: 767px)  {
+    .footerText {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px)   {
+    .modal-dialog {
+        max-width: 95% !important;
+        margin: auto;
+    }
+
+    .modal-content {
+        width: 100% !important;
+        max-height: 70rem !important;
+        padding: 6px 6px 1.8rem 5px;
+    }
+}
+
+@media screen and (max-width: 450px)  {
+    .modal-dialog {
+        max-width: 95% !important;
+        margin: auto;
+    }
+      
+    .modal-content {
+        width: 100% !important;
+        max-height: 70rem !important;
+        padding: 6px 6px 1.8rem 5px;
+    }
+
+    .h4 {
+        font-size: 3rem; 
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+    
+    ol li {
+        font-size: 2rem;
+    }
+    
+    .btn-close {
+        font-size: 2.3rem;
+    }
+    
+}
+  

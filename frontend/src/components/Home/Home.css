@@ -1,0 +1,79 @@
+#home {
+    margin-top: 7rem !important;
+}
+
+.colBelowNavbar {
+    margin-bottom: 1.5rem;
+}
+ 
+.colBelowNavbar h1 {
+    font-weight: 800;
+}
+
+.colBelowNavbar h4 {
+    font-weight: 350;
+    width: 85%;
+    margin: auto;
+}
+
+#features > h1 {
+    font-size: 3.3rem;
+}
+
+@media screen and (min-width: 1025px)  {
+    .colBelowNavbar h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px)  {
+    .toolsCol {
+        margin-bottom: 2.7rem;
+    }
+
+    #home {
+        margin-top: 10rem !important;
+    }
+
+    .colBelowNavbar h1 {
+        font-size: 3rem;
+    }
+
+    .colBelowNavbar h4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px)  {
+    #home {
+        margin-top: 12rem !important;
+    }
+
+    .colBelowNavbar h1 {
+        font-size: 5rem;
+    }
+
+    .colBelowNavbar h4 {
+        font-size: 3.2rem;
+    }
+
+    .toolsCol {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #home {
+        margin-top: 12rem !important;
+    }
+
+    .colBelowNavbar h1 {
+        font-size: 4.7rem;
+        width: 97%;
+        margin: auto;
+    }
+
+    .colBelowNavbar h4 {
+        font-size: 3rem;
+    }
+}

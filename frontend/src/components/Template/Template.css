@@ -1,0 +1,71 @@
+.template {
+    margin-top: 7.6rem;
+    min-height: 75vh;
+}
+
+.template > h1 {
+    font-size: 3rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.input-container {
+   margin: 1rem;
+}
+
+.input-container label {
+    margin: 10px;
+}
+
+.input-container input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.split-btn {
+    margin: 3rem;
+    width: 10rem;
+    font-size: 1.3rem;
+}
+
+.box {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: flex;
+}
+
+.box-title {
+    margin-top: 0;
+    margin-bottom: 10px; 
+    font-size: 1.5em;
+    color: #333;
+}
+
+.box-description {
+    margin-top: 0; 
+    color: #666;
+}
+
+.form-check-input {
+    margin-top: 10px; 
+}
+
+.box:hover {
+    background-color: #f0f0f0;
+  }
+
+
+.box label {
+    font-size: 1.1em; 
+}
+
+.box input[type="radio"] {
+    margin: 10px; 
+    width: 15px; 
+    height: 15px;
+}

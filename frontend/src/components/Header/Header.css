@@ -1,0 +1,103 @@
+#header {
+    box-shadow: 0.5px 0.5px 3px rgba(128, 128, 128, 0.836);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.navItems {
+    margin-left: 1rem;
+}
+
+.navItems > div {
+    width: 42rem;
+    position: absolute !important;
+    left: -16rem !important;
+}
+
+.dropDownCol > * {
+    margin: 3px auto;
+    background-color: white !important;
+    font-size: 1.1rem;
+    color: black !important;
+}
+
+.dropDownCol > *:hover {
+    background-color: whitesmoke !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    #logo {
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #basic-navbar-nav {
+        margin-top: 0.7rem;
+        border: 1px solid black;
+        padding: 0px !important;
+    }
+
+    #nav>* {
+        border-radius: 0;
+        border-bottom: 1px solid black;
+        margin-left: 0;
+    }
+
+    #nav>*:hover {
+        background-color: rgba(128, 128, 128, 0.37);
+        border-bottom: 1px solid black;
+    }
+
+    #nav :last-child {
+        border-bottom: none;
+    }
+
+    .navItems > div {
+        width: 93%;
+        position: initial !important;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    #logo {
+        width: 35% !important;
+    }
+
+    .navbar-toggler {
+        font-size: 1.9rem;
+        margin-right: 0.7rem;
+    }
+
+    #nav {
+        font-size: 1.5rem;
+    }
+
+    .dropDownCol > * {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo {
+        width: 50% !important;
+        margin-left: 0px;
+    }
+
+    .navbar-toggler {
+        font-size: 2.2rem;
+        margin-right: 0.7rem;
+    }
+
+    #nav {
+        font-size: 1.8rem;
+    }
+
+    .dropDownCol > * {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,29 @@
+.pdfEditor {
+    border: 1px solid gray;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+    width: 97%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1026px) {
+    .pdfEditor {
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pdfEditor {
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #viewer {
+        height: 100rem !important;
+    }
+
+    .pdfEditor {
+        margin-top: 13rem;
+    }
+}

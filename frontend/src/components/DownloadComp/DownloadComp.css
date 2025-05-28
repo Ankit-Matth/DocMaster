@@ -1,0 +1,45 @@
+.downloadComp {
+    min-height: 30rem;
+}
+
+.downloadComp > h1 {
+    margin-top: 7.6rem;
+}
+
+.successBtn {
+    width: 40rem;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 2px;
+    margin-top: 4rem;
+}
+
+.left-column,
+.top,
+.bottom {
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+
+.left-column {
+    padding: 0.68rem;
+}
+
+.successBtn .right-column {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 2px; 
+}
+
+.top {
+    font-size: 2rem;
+}
+
+.bottom {
+    font-size: 1rem;
+}

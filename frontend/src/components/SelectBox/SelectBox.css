@@ -1,0 +1,110 @@
+#selectBox {
+    margin-top: 7rem !important;
+}
+
+.outerBox {
+    height: 26rem;
+}
+
+.outerBox:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.innerBox {
+    background-color: rgba(128, 128, 128, 0.2);
+    border: 1px dashed white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectBox {
+    width: 20rem;
+    margin: auto;
+    padding: 0.8rem  !important;
+    padding-left: 1.7rem !important;
+}
+
+@media screen and (max-width: 767px) {
+    #selectBox {
+        margin-top: 9rem !important;
+    }
+
+    .toolTitle {
+        font-size: 3.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .outerBox {
+        height: 36rem;
+    }
+
+    .toolImg {
+        width: 30rem !important;
+    }
+
+    .selectBox {
+        width: 30rem;
+    }
+
+    .selectBox + p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1026px) {
+    .toolTitle {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #selectBox {
+        margin-top: 7.3rem !important;
+    }
+
+    .outerBox {
+        height: 40rem;
+    }
+
+    .toolImg {
+        width: 30rem !important;
+    }
+
+    .selectBox {
+        width: 40rem;
+    }
+
+    .selectBox + p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #selectBox {
+        margin-top: 14rem !important;
+    }
+
+    .toolTitle {
+        font-size: 5.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .outerBox {
+        height: 60rem;
+    }
+
+    .toolImg {
+        width: 45rem !important;
+    }
+
+    .selectBox {
+        width: 40rem;
+    }
+
+    .selectBox + p {
+        font-size: 3rem;
+    }
+}
